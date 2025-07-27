@@ -29,9 +29,22 @@
 				</div>
 			</div>
 			<div class="buttons">
-				<a class="button"href="#">For You</a>
+				<a class="button"href="https://haniel-siga.github.io/bouquet-flowers/">For You</a>
 				<a class="button two" href="https://www.canva.com/design/DAGuQbdQkxY/rVQeWZY33tCCHZ7PX3Ginw/edit?utm_content=DAGuQbdQkxY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Click Me</a>
 			</div>
 		</div>
 	</div>
+	  <div class="hearts-container"></div>
+<script>
+  setInterval(() => {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+    document.querySelector(".hearts-container").appendChild(heart);
+    setTimeout(() => {
+      heart.remove();
+    }, 5000);
+  }, 300);
+</script>
 	</body>
