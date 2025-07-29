@@ -247,7 +247,7 @@ p {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: pink;
+  background: purple;
   transform: rotate(45deg);
   animation: floatUp ease-in infinite;
 }
