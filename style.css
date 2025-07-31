@@ -57,7 +57,7 @@ p {
 			
 .rose {
   width: 200px;
-  height: 200px;
+  height: auto;
   position: relative; /* changed from absolute */
   animation: yidon 5s infinite;
   transform: translateY(0%); /* adjust this if needed */
